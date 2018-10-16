@@ -47,10 +47,7 @@ body {
 
 .header {
   display: flex;
-  flex-direction: column;
-  /* Remove border on final product  */
-  /* border: 0.3rem dotted black; */
-  /* background-color: green; */ }
+  flex-direction: column; }
 
 .header-elements {
   display: flex;
@@ -161,10 +158,11 @@ body {
 .bottom {
   background-color: #ea6a39;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center; }
   .bottom .headings {
     width: 50%;
+    text-align: center;
     border-right: 0.5px solid black; }
     .bottom .headings h2 {
       font-size: 1.2rem; }
@@ -219,5 +217,5 @@ body {
       width: calc(100% / 2);
       float: left;
       margin: 0; }
-  .bottom {
-    justify-content: center; } }
+  .bottom .headings {
+    text-align: center; } }
