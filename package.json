@@ -1,0 +1,25 @@
+{
+  "name": "week5-gulp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Robert McKenney <robert@mckenney.ca>",
+  "license": "MIT",
+  "dependencies": {
+    "autoprefixer": "^9.1.5",
+    "cssnano": "^4.1.4",
+    "gulp": "^3.9.1",
+    "gulp-postcss": "^8.0.0",
+    "gulp-sass": "^4.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "git+https://github.com/Keenei/mtm6330-midterm-imbl0004.git",
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/Keenei/mtm6330-midterm-imbl0004/issues"
+  },
+  "homepage": "https://github.com/Keenei/mtm6330-midterm-imbl0004#readme",
+  "description": ""
+}

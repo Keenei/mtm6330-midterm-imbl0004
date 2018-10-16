@@ -1,0 +1,50 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/bin/yarn add gulp
+
+PATH: 
+  /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+
+Yarn version: 
+  1.10.1
+
+Node version: 
+  10.11.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: EACCES: permission denied, scandir '/Users/keene/.config/yarn/link'
+
+npm manifest: 
+  {
+    "name": "week5-gulp",
+    "version": "1.0.0",
+    "main": "index.js",
+    "author": "Robert McKenney <robert@mckenney.ca>",
+    "license": "MIT",
+    "dependencies": {
+      "autoprefixer": "^9.1.5",
+      "cssnano": "^4.1.4",
+      "gulp": "^3.9.1",
+      "gulp-postcss": "^8.0.0",
+      "gulp-sass": "^4.0.1"
+    },
+    "devDependencies": {},
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": "git+https://github.com/Keenei/mtm6330-midterm-imbl0004.git",
+    "keywords": [],
+    "bugs": {
+      "url": "https://github.com/Keenei/mtm6330-midterm-imbl0004/issues"
+    },
+    "homepage": "https://github.com/Keenei/mtm6330-midterm-imbl0004#readme",
+    "description": ""
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
